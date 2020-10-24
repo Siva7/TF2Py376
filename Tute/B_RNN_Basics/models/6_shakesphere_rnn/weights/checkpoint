@@ -1,0 +1,2 @@
+model_checkpoint_path: "Tute/2_RNN_Basics/models/6_shakesphere_rnn/weights/my_weights"
+all_model_checkpoint_paths: "Tute/2_RNN_Basics/models/6_shakesphere_rnn/weights/my_weights"
