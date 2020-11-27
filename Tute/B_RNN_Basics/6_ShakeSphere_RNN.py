@@ -106,7 +106,7 @@ for i in one_hot_x_normal_y:
   print(i[1].get_shape())
   break
 
-rnn_model.load_weights('Tute/2_RNN_Basics/models/6_shakesphere_rnn/weights/checkpoint')
+rnn_model.load_weights('Tute/B_RNN_Basics/models/6_shakesphere_rnn/weights/checkpoint')
 rnn_model.fit(one_hot_x_normal_y,epochs=20)
 
 rnn_model.save('entire_model_3/')

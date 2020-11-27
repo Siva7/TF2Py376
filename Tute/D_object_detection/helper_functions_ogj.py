@@ -19,7 +19,7 @@ from PIL import ImageOps
 # For measuring the inference time.
 import time
 def display_image(image):
-  fig = plt.figure(figsize=(20, 15))
+  fig = plt.figure(figsize=(10, 7))
   plt.grid(False)
   plt.imshow(image)
 
